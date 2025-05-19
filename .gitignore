@@ -1,0 +1,36 @@
+# IDE-specific directories
+.idea/
+
+# Compiled Java files and build directories
+target/
+build/
+
+# Allow Maven wrapper (optional, useful if used)
+!.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA specific files
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Mac OS
+.DS_Store
